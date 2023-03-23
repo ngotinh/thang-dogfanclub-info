@@ -17,7 +17,7 @@ if (route.params.slug) {
     id = id[0];
   }
 
-  const apiUrl = `https://animal.citestesitu.com/wp-json/wp/v2/posts?slug=${id}`;
+  const apiUrl = `https://puppieslove.info/wp-json/wp/v2/posts?slug=${id}`;
   const response = await fetch(apiUrl);
   const json = await response.json();
   //console.log(data);
